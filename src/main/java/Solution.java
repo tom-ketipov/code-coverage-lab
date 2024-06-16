@@ -21,7 +21,7 @@ public class Solution {
         }
 
         // Validate that the DNA strand length is within allowed boundaries
-        if (dna.isEmpty() && dna.length() >= 10) {
+        if (dna.isEmpty() || dna.length() > 10) {
             throw new IllegalArgumentException("Invalid DNA strand length: " + dna.length() + ". Length must be between 1 and 10 inclusively.");
         }
 
@@ -40,7 +40,7 @@ public class Solution {
             case 'C' -> 'G';
             case 'G' -> 'C';
             default ->
-                    throw new IllegalArgumentException("Invalid character in DNA strand: " + c + ". Allowed characters are A, T, C, and G.");
+                    throw new IllegalArgumentException("Invalid character in DNA strand: '" + c + "'. Allowed characters are A, T, C, and G.");
         };
     }
 }
