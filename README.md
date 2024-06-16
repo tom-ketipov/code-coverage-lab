@@ -33,8 +33,6 @@ You need to return the other complementary side. ***DNA strand is never empty or
 - [ ] Check for any missed cases or bugs, even with 100% coverage. If you find any bugs, fix them and write tests to
   cover them. If there are no issues, add a comment explaining why.
 - [ ] Commit your branch to the remote repository.
-- [ ] Open a pull request to the master branch.
-- [ ] Once approved, merge the feature branch into the master branch.
 
 ## Repository Structure
 
@@ -64,6 +62,7 @@ To get a local copy up and running, follow these simple steps:
 <bt>
 
 * **Apache Maven:** Ensure you have Maven 3.6 or later installed
+
   To check, run:
 
       mvn -version
