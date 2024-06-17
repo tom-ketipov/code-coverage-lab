@@ -29,10 +29,11 @@ You need to return the other complementary side. ***DNA strand is never empty or
 ### ⚠️ Your tasks !
 
 - [ ] Checkout a feature branch named after yourself from the master branch.
-- [ ]  Write unit tests with the goal of achieving 100% statement and branch coverage.
-- [ ] Check for any missed cases or bugs, even with 100% coverage. If you find any bugs, fix them and write tests to
-  cover them. If there are no issues, add a comment explaining why.
-- [ ] Commit your branch to the remote repository.
+- [ ] Navigate to the src/test/java directory within your project structure and create a new Java class with the naming pattern YourNameSolutionTest. For example, if your name is Alex, the class should be named AlexSolutionTest.java.
+- [ ] Write unit tests with the goal of achieving 100% statement and branch coverage.
+- [ ] Analyze your tests to identify any edge cases or scenarios that might not be covered, even if you have achieved 100% coverage.
+  If you discover any bugs during this process, fix them and write additional tests to ensure the fixes are covered.
+- [ ] Push your branch to the remote repository.
 
 ## Repository Structure
 
@@ -40,12 +41,12 @@ You need to return the other complementary side. ***DNA strand is never empty or
 
     . 
     └── src/ 
-		    ├── main/ 
-		    │ 	└── java/ 
-		    │ 		├── Solution.java
-		    └── test/ 
-			    └── java/ 
-				    ├── SolutionTest.java
+        ├── main/ 
+        │ 	└── java/ 
+        │ 		├── Solution.java
+        └── test/ 
+            └── java/ 
+                ├── YourNameSolutionTest.java
 
 ## Getting Started
 

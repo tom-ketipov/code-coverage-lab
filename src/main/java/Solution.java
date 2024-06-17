@@ -13,6 +13,17 @@
  * DNA length: 1 <= dna <= 10 symbols
  */
 
+/*
+        todo:
+            1. Checkout a feature branch named after yourself from the master branch.
+            2. Navigate to the src/test/java directory within your project structure and create a new Java class with the naming pattern YourNameSolutionTest.
+               For example, if your name is Alex, the class should be named AlexSolutionTest.java.
+            3. Write unit tests with the goal of achieving 100% statement and branch coverage.
+            4. Analyze your tests to identify any edge cases or scenarios that might not be covered, even if you have achieved 100% coverage.
+               If you discover any bugs during this process, fix them and write additional tests to ensure the fixes are covered.
+            5. Push your branch to the remote repository.
+*/
+
 public class Solution {
     public String makeComplement(String dna) {
         // Validate that the DNA strand is not null
