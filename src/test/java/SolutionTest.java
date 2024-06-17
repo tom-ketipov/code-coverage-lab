@@ -20,7 +20,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void can_complement_dna_string_with_only_valid_characters() {
+    public void can_complement_dna_string_with_single_valid_character() {
         String dna = "A";
         Assertions.assertEquals("T", solution.makeComplement(dna));
     }
