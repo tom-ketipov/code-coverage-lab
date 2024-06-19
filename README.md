@@ -33,7 +33,6 @@ You need to return the other complementary side. ***DNA strand is never empty or
 - [ ] Write unit tests with the goal of achieving 100% statement and branch coverage.
 - [ ] Analyze your tests to identify any edge cases or scenarios that might not be covered, even if you have achieved 100% coverage.
   If you discover any bugs during this process, fix them and write additional tests to ensure the fixes are covered.
-- [ ] Push your branch to the remote repository.
 
 ## Repository Structure
 
