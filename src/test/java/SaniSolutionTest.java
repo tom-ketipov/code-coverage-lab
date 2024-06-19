@@ -17,6 +17,7 @@ public class SaniSolutionTest {
      }
 
     @Test
+    //bug && instead of ||
     public void saniSolutionLongerStringTest(){
         try {
             solution.makeComplement("ATTGCATTGCATTGCATTGC");
@@ -28,6 +29,7 @@ public class SaniSolutionTest {
     }
 
     @Test
+    //bug && instead of ||
     public void saniSolutionEmptyStringTest(){
         try {
             solution.makeComplement("");
