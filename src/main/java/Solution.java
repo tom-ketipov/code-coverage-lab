@@ -20,7 +20,7 @@
                For example, if your name is Alex, the class should be named AlexSolutionTest.java.
             3. Write unit tests with the goal of achieving 100% statement and branch coverage.
             4. Analyze your tests to identify any edge cases or scenarios that might not be covered, even if you have achieved 100% coverage.
-               If you discover any bugs during this process, fix them and write additional tests to ensure the fixes are covered.
+               If you discover any bugs during this process, write additional tests to ensure the fixes are covered.
 */
 
 public class Solution {
