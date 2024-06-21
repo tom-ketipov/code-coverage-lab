@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class PineSolutionTest {
+public class ThomasSolutionTest {
     private Solution solution;
 
     @BeforeEach
@@ -17,7 +17,7 @@ public class PineSolutionTest {
     }
 
     @Test
-    public void can_complement_max_allowed_length_dna_strings_with_only_valid_characters() {
+    public void can_complement_max_allowed_length_dna_strings_with_valid_characters() {
         String dna = "ATTGCGTATT";
         Assertions.assertEquals("TAACGCATAA", solution.makeComplement(dna));
     }
@@ -34,7 +34,7 @@ public class PineSolutionTest {
     }
 
     @Test
-    public void makeComplement_throws_illegal_argument_exception_for_dna_input_that_are_bigger_than_allowed_max_length() {
+    public void makeComplement_throws_illegal_argument_exception_for_dna_inputs_that_are_bigger_than_allowed_max_length() {
         String dna = "ATATATATATA";
 
         try {
