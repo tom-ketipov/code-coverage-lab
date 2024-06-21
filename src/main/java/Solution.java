@@ -20,7 +20,7 @@
                For example, if your name is Alex, the class should be named AlexSolutionTest.java.
             3. Write unit tests with the goal of achieving 100% statement and branch coverage.
             4. Analyze your tests to identify any edge cases or scenarios that might not be covered, even if you have achieved 100% coverage.
-               If you discover any bugs during this process, fix them and write additional tests to ensure the fixes are covered.
+               If you discover any bugs during this process, write additional tests to ensure the fixes are covered.
 */
 
 public class Solution {
@@ -31,7 +31,7 @@ public class Solution {
         }
 
         // Validate that the DNA strand length is within allowed boundaries
-        if (dna.isEmpty() && dna.length() >= 10) {
+        if (dna.isEmpty() || dna.length() > 10) {
             throw new IllegalArgumentException("Invalid DNA strand length: " + dna.length() + ". Length must be between 1 and 10 inclusively.");
         }
 
@@ -50,7 +50,7 @@ public class Solution {
             case 'C' -> 'G';
             case 'G' -> 'C';
             default ->
-                    throw new IllegalArgumentException("Invalid character in DNA strand: " + c + ". Allowed characters are A, T, C, and G.");
+                    throw new IllegalArgumentException("Invalid character in DNA strand: '" + c + "'. Allowed characters are A, T, C, and G.");
         };
     }
 }
